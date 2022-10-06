@@ -108,3 +108,8 @@
     top: 0px;
     background: rgba(221, 219, 242, 0.26);
   }
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+  }
