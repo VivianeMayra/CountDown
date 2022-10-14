@@ -41,7 +41,7 @@ function checkInputs() {
     
 
     if (passwordConfirmationValue === "") {
-        setErrorFor(passwordConfirmation, "A confirmação de senha é obrigatória.");
+        setErrorFor(passwordConfirmation, "A confirmação é obrigatória.");
     } else if (passwordConfirmationValue !== passwordValue) {
         setErrorFor(passwordConfirmation, "As senhas não conferem.");
     } else {
